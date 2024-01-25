@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loginData{
+    color: white;
+    padding: 10px;
+}
+
+#loginData p{
+    font-size: 12px;
+}
+
+#loginData button{
+    width: 80px;
+    height: 25px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+#contentBar{
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    width: 800px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.addContent{
+    display: flex;
+    align-items: center;
+}
+
+.addContent input[type=text]{
+    border-style: none;
+    border-bottom: 2px solid black;
+    background-color: yellow;
+    height: 80px;
+    font-size: 25px;
+}
+
+.addContent input[type=text]:focus{
+    outline: none;
+    border-bottom: 2px solid black;
+    font-size: 50px;
+    transition: 0.5s;
+    height: 150px;
+}
+
+.addContent button{
+    width: 150px;
+    height: 50px;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.addContent button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.addContent button:focus{
+    transform: scale(1.2);
+    transition: 0.2s;
+    background-color: rgb(207, 207, 0);
+}
+
